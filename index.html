@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <link href="./img/mdgtlogo.png" rel="icon" type="image/png"/>
+    <link href="./assets/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Open+Sans:wght@300&display=swap"
+          rel="stylesheet">
+    <link href="./assets/libs/fontawesomepro/css/fontawesome.min.css"/>
+    <link href="./assets/libs/fontawesomepro/css/all.min.css"/>
+
+</head>
+
+<style type="text/css">
+
+
+    .btn:focus {
+        outline: 0;
+        box-shadow: none;
+    }
+
+    .card .card-image:hover {
+        transform: scale(-0.001);
+        transition: 3s;
+
+    }
+
+    @keyframes mypp {
+        from {
+            transform: rotate(-15deg);
+        }
+        to {
+            transform: rotate(15deg);
+        }
+    }
+
+</style>
+
+
+<body>
+<nav class="navbar navbar-light bg-light navbar-expand-md fixed-top">
+    <a href="#" class="navbar-brand"><img src="./img/pp.png" width="50px" class=" mx-3"/></a>
+    <button class="navbar-toggler mx-2" data-bs-toggle="collapse" data-bs-target="#nav"><span
+            class="navbar-toggler-icon"></span></button>
+    <div class="navbar-collapse collapse" id="nav">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a href="#home" class="nav-link text-uppercase px-3">home</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link text-uppercase px-3">projects</a></li>
+            <li class="nav-item dropdown"><a href="#" class="nav-link text-uppercase px-3 dropdown-toggle"
+                                             data-bs-toggle="dropdown">skills</a>
+                <div class="dropdown-menu">
+                    <a href="#skills" class="dropdown-item">Skills</a>
+                    <a href="#experience" class="dropdown-item">Experience</a>
+                </div>
+            </li>
+            <li class="nav-item"><a href="#contact" class="nav-link text-uppercase px-3">contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<section id="home">
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center" style="height: 100vh;">
+            <div class="col-sm-10 text-center text-dark" style="opacity: 1;">
+                <h1 class="display-2">About Me</h1>
+                <h3 class="fw-light">A passionate candidate who is willing to learn new things and seeking good
+                    opportunities to get work experience during the covid19 pandemic.</h3>
+                <a href="#contact" class="btn rounded-pill btn-outline-dark btn-lg mt-3">Contact me</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id=projects>
+    <div class="container-fluid justify-content-center align-items-center bg-white">
+        <div class="my-3 text-center">
+            <!-- <h2 class="display-3 text-danger">Projects</h2> -->
+        </div>
+        <div class="row text-center">
+            <div class="col-sm-10 col-md-5 mx-auto  my-3">
+                <div class="card bg-light">
+                    <div class="card-image">
+                        <img src="./img/kngsharing.PNG" width="100%"/>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <h3 class="fw-light">Knowledge Sharing Website</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div class="btn-group">
+                                <a href="https://dltwdf.herokuapp.com/" target="_blank" class="btn btn-info">Try it
+                                    now</a>
+                                <a href="https://github.com/HPP18/WDFproject/tree/master" target="_blank"
+                                   class="btn btn-secondary">Source</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-10 col-md-5 mx-auto my-3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./img/photostudio.PNG" width="100%"/>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <h3 class="fw-light">Photo Studio Website</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div class="btn-group">
+                                <a href="https://amzproject.herokuapp.com/" target="_blank" class="btn btn-info">Try it
+                                    now</a>
+                                <a href="https://github.com/HPP18/WDFproject/tree/master" target="_blank"
+                                   class="btn btn-secondary">Source</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-10 col-md-5 mx-auto my-3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./img/calculator.PNG" width="100%"/>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <h3 class="fw-light">Calculator</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div class="btn-group">
+                                <a href="https://hw6calculator.herokuapp.com/" target="_blank" class="btn btn-info">Try
+                                    it now</a>
+                                <a href="https://github.com/HPP18/WDFproject/tree/master" target="_blank"
+                                   class="btn btn-secondary">Source</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-10 col-md-5 mx-auto my-3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./img/numberguess.PNG" width="100%"/>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <h3 class="fw-light">Number Guess Game</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div class="btn-group">
+                                <a href="https://noguessgame.herokuapp.com/" target="_blank" class="btn btn-info">Try it
+                                    now</a>
+                                <a href="https://github.com/HPP18/WDFproject/tree/master" target="_blank"
+                                   class="btn btn-secondary">Source</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-10 col-md-5 mx-auto my-3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./img/photostudio.PNG" width="100%"/>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <h3 class="fw-light">Photo Studio Website</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div class="btn-group">
+                                <a href="https://amzproject.herokuapp.com/" target="_blank" class="btn btn-info">Try it
+                                    now</a>
+                                <a href="https://github.com/HPP18/WDFproject/tree/master" target="_blank"
+                                   class="btn btn-secondary">Source</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-10 col-md-5 mx-auto my-3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./img/Homework5.PNG" width="100%"/>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <h3 class="fw-light">Calculator</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div class="btn-group">
+                                <a href="https://dltwdf.herokuapp.com/" target="_blank" class="btn btn-info">Try it
+                                    now</a>
+                                <a href="https://github.com/HPP18/WDFproject/tree/master" target="_blank"
+                                   class="btn btn-secondary">Source</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="skills">
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center bg-info">
+            <h3 class="display-3 text-center my-3">Skills</h3>
+            <div class="text-center">
+                <div class="btn-group-vertical mt-3">
+                    <a href="#" class="btn" style="color: #d33a0b;"><i class="fab fa-html5 fa-4x"></i></a>
+                    <a href="#" class="btn btnhtml" style="color: #d33a0b;"><i class="fas fa-caret-down fa-2x"></i></a>
+                </div>
+                <small style="color: #d33a0b;"></small>
+            </div>
+            <div class="text-center">
+                <div class="btn-group-vertical mt-3">
+                    <a href="#" class="btn text-primary"><i class="fab fa-css3 fa-4x"></i></a>
+                    <a href="#" class="btn btncss text-primary"><i class="fas fa-caret-down fa-2x"></i></a>
+                </div>
+                <small class="text-primary"></small>
+            </div>
+            <div class="text-center">
+                <div class="btn-group-vertical mt-3">
+                    <a href="#" class="btn text-warning"><i class="fab fa-js fa-4x"></i></a>
+                    <a href="#" class="btn btnjs text-warning"><i class="fas fa-caret-down fa-2x"></i></a>
+                </div>
+                <small class="text-warning"></small>
+            </div>
+            <div class="text-center">
+                <div class="btn-group-vertical mt-3">
+                    <a href="#" class="btn text-primary"><i class="fab fa-php fa-4x"></i></a>
+                    <a href="#" class="btn btnphp text-primary"><i class="fas fa-caret-down fa-2x"></i></a>
+                </div>
+                <small class="text-primary"></small>
+            </div>
+            <div class="text-center">
+                <div class="btn-group-vertical mt-3">
+                    <a href="#" class="btn" style="color: #563d7c;"><i class="fab fa-bootstrap fa-4x"></i></a>
+                    <a href="#" class="btn btnbst" style="color: #563d7c;"><i class="fas fa-caret-down fa-2x"></i></a>
+                </div>
+                <small style="color: #563d7c;"></small>
+            </div>
+            <div class="text-center">
+                <div class="btn-group-vertical mt-3">
+                    <a href="#" class="btn text-secondary"><i class="far fa-language fa-4x"></i></a>
+                    <a href="#" class="btn btnlgu text-secondary"><i class="fas fa-caret-down fa-2x"></i></a>
+                </div>
+                <small class="text-secondary"></small>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="experience">
+    <div class="container-fluid bg-light">
+        <div class="row justify-content-center align-items-center mx-auto">
+            <!-- <h3 class="display-3 text-center my-3">Experience</h3> -->
+            <div class="col-sm-8 col-md-10 my-5">
+                <div>
+                    <h4 class="text-uppercase fw-bold">Enigineer</h4><span
+                        style="color:#d33a0b">| May5,2021-present</span>
+                    <ul>
+                        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-uppercase fw-bold">Developer</h4><span
+                        style="color:#d33a0b">| May5,2021-present</span>
+                    <ul>
+                        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-uppercase fw-bold">content Writer</h4><span style="color:#d33a0b">| May5,2021-present</span>
+                    <ul>
+                        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container-fluid bg-secondary">
+        <div class="row justify-content-center align-items-center text-center">
+            <div class="col-sm-10 my-3">
+                <div class="alert alert-danger alert-dismissible fade rounded-0">
+                    <strong>Sorry! It's only for show. I haven't learnt it yet xD.</strong>
+                    <button class="btn-close" data-bs-dismiss="alert"></button>
+                </div>
+                <div>
+                    <div class="ppimage">
+                        <img src="./img/pp.png" width="200px" height="200px" style="border-radius: 50%;
+                                animation-name: mypp; animation-duration: 1s; animation-iteration-count: infinite; animation-direction: alternate; animation-timing-function: linear; transform-origin: bottom;
+                                "/>
+                    </div>
+                    <h5 class="text-uppercase">hpp</h5>
+                    <p>6th BE (UTYCC)</p>
+                    <p>09-429070980</p>
+                    <p>hninpwintphyu93287@gmail.com</p>
+                    <p>Chanmyatharsi, Mandalay</p>
+                </div>
+                <div class="btn btn-success mb-2">Download Resume</div>
+                <div class="col-sm-12 text-center mt-3 text-light">Find me on:
+                    <a href="https://www.facebook.com/" target="_blank"><i
+                            class="fab fa-facebook fa-2x text-primary mx-2"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram fa-2x mx-2" style="color: #ca0adb"></i></a>
+                    <a href="https://www.linkedin.com/feed/" target="_blank"><i
+                            class="fab fa-linkedin fa-2x text-info mx-2"></i></a>
+                    <a href="https://github.com/HPP18" target="_blank"><i
+                            class="fab fa-github fa-2x text-dark mx-2"></i></a>
+                </div>
+
+            </div>
+            <p class="mt-2 mb-0 py-3" style="background: rgb(68, 67, 67); color: white;">&copy; Copyright;<span
+                    id="copyright"></span> Portfolio by HPP</p>
+        </div>
+    </div>
+</section>
+
+
+</body>
+
+<script src="./assets/libs/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="./assets/libs/bootstrap/js/bootstrap.popper.min.js" type="text/javascript"></script>
+<script src="./assets/libs/jquery/jquery.min.js"></script>
+<script src="./assets/libs/fontawesomepro/js/fontawesome.min.js"></script>
+<script src="./assets/libs/fontawesomepro/js/all.min.js"></script>
+<script type="text/javascript">
+
+    var date = new Date();
+    var copyrighttext = document.getElementById('copyright');
+    copyrighttext.textContent = date.getFullYear();
+
+    // Banner
+    var i = 0;
+    var bannerbg = document.getElementById('home');
+    var imgarray = ["url('./img/bg4.jpg')", "url('./img/bg5.jpg')", "url('./img/bg16.jpg')"];
+
+    function bgchange() {
+        if (i < imgarray.length) {
+            bannerbg.style.backgroundImage = imgarray[i];
+            bannerbg.style.backgroundSize = "cover";
+            bannerbg.style.backgroundPosition = "center";
+            i++;
+        } else {
+            i = 0;
+        }
+    }
+
+    bannerbg.style.backgroundImage = imgarray[0];
+    bannerbg.style.backgroundSize = "cover";
+    bannerbg.style.backgroundPosition = "center";
+    setInterval(bgchange, 3000);
+
+    var downloadbtn = document.querySelector('#contact .btn');
+    var alerttext = document.querySelector('#contact .alert');
+    downloadbtn.addEventListener('click', function () {
+        alerttext.classList.add("show");
+    });
+
+    // Skills
+    var btnhtml = document.querySelector('.btnhtml');
+    var btncss = document.querySelector('.btncss');
+    var btnjs = document.querySelector('.btnjs');
+    var btnphp = document.querySelector('.btnphp');
+    var btnbst = document.querySelector('.btnbst');
+    var btnlgu = document.querySelector('.btnlgu');
+
+    var iconhtml = document.querySelector('.btnhtml .fas');
+    var iconcss = document.querySelector('.btncss .fas');
+    var iconjs = document.querySelector('.btnjs .fas');
+    var iconphp = document.querySelector('.btnphp .fas');
+    var iconbst = document.querySelector('.btnbst .fas');
+    var iconlgu = document.querySelector('.btnlgu .fas');
+
+    var btnarr = [btnhtml, btncss, btnjs, btnphp, btnbst, btnlgu];
+    var iconarr = [iconhtml, iconcss, iconjs, iconphp, iconbst, iconlgu];
+    let msgarr = [];
+    msgarr[0] = `<h5>HTML 5</h5><ul style="text-align: center;"><li>Responsive layout</li><li>Color Theory</li><li>Certified by blablablabla</li></ul>`;
+    msgarr[1] = `<h5>CSS 3</h5><ul style="text-align: center;"><li>Responsive layout</li><li>Color Theory</li><li>Certified by blablablabla</li></ul>`;
+    msgarr[2] = `<h5>Javascript</h5><ul style="text-align: center;"><li>Responsive layout</li><li>Color Theory</li><li>Certified by blablablabla</li></ul>`;
+    msgarr[3] = `<h5>PHP</h5><ul style="text-align: center;"><li>Responsive layout</li><li>Color Theory</li><li>Certified by blablablabla</li></ul>`;
+    msgarr[4] = `<h5>Bootstrap</h5><ul style="text-align: center;"><li>Responsive layout</li><li>Color Theory</li><li>Certified by blablablabla</li></ul>`;
+    msgarr[5] = `<h5>Language</h5><ul style="text-align: center;"><li>Responsive layout</li><li>Color Theory</li><li>Certified by blablablabla</li></ul>`;
+
+    function iconchange(btn, icon, msg) {
+        if (icon.classList.contains("fa-caret-down")) {
+            btn.parentElement.nextElementSibling.innerHTML = msg;
+            icon.classList.replace('fa-caret-down', 'fa-caret-up');
+            btn.innerHTML = `<i class="fas fa-caret-up fa-2x"></i>`;
+        } else {
+            btn.parentElement.nextElementSibling.innerHTML = "";
+            icon.classList.replace('fa-caret-up', 'fa-caret-down');
+            btn.innerHTML = `<i class="fas fa-caret-down fa-2x"></i>`;
+        }
+    }
+
+    btnarr[0].addEventListener('click', function (e) {
+        iconchange(btnarr[0], iconarr[0], msgarr[0]);
+        e.preventDefault();
+    });
+
+    btnarr[1].addEventListener('click', function (e) {
+        iconchange(btnarr[1], iconarr[1], msgarr[1]);
+        e.preventDefault();
+    });
+
+    btnarr[2].addEventListener('click', function (e) {
+        iconchange(btnarr[2], iconarr[2], msgarr[2]);
+        e.preventDefault();
+    });
+
+    btnarr[3].addEventListener('click', function (e) {
+        iconchange(btnarr[3], iconarr[3], msgarr[3]);
+        e.preventDefault();
+    });
+
+    btnarr[4].addEventListener('click', function (e) {
+        iconchange(btnarr[4], iconarr[4], msgarr[4]);
+        e.preventDefault();
+    });
+
+    btnarr[5].addEventListener('click', function (e) {
+        iconchange(btnarr[5], iconarr[5], msgarr[5]);
+        e.preventDefault();
+    });
+
+</script>
+</html>
